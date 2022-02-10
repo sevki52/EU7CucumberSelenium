@@ -13,6 +13,7 @@ public class Hooks {
     @After
     public void teardown(){
         System.out.println("\tthis is coming from AFTER");
+        System.out.println("\tthis is coming from AFTER");
     }
 //    public void tearDown(Scenario scenario){
 //        if(scenario.isFailed()){
